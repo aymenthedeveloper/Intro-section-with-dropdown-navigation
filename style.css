@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family: "Epilogue", sans-serif;
   --pad-x: 41px;
+  margin-bottom: 48px;
 }
 a {
   text-decoration: none;
@@ -61,6 +62,7 @@ header nav{
   align-items: center;
   justify-content: space-between;
   flex-grow: 1;
+
 }
 header nav .links {
   display: flex;
@@ -230,7 +232,7 @@ main .hero-img{
     display: block;
   }
   header nav{
-    padding-top: var(--pad-y);
+    padding-top: 22px;
     padding-inline: var(--pad-x);
     background-color: #fff;
     position: fixed;
@@ -238,7 +240,7 @@ main .hero-img{
     border: 1px solid;
     flex-direction: column;
     justify-content: flex-start;
-    width: 50%;
+    width: max(60%, 200px);
     row-gap: .5rem;
     transition-duration: .3s;
   }
@@ -282,6 +284,10 @@ main .hero-img{
   header{
     padding-top: 16px;
     margin-bottom: 0;
+  }
+  header nav{
+    padding-top: 16px;
+
   }
   main{
     grid-template-columns: 1fr;
