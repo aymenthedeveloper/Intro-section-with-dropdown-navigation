@@ -6,7 +6,6 @@ const topNav = document.querySelector('header nav');
 drobBtn.forEach((btn) => {
   btn.addEventListener('click', () => {
     btn.classList.toggle('show')
-    drobBtn.forEach((b) => b !== btn && b.classList.remove('show'))
   })
 })
 
